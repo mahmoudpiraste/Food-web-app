@@ -1,0 +1,292 @@
+/* 
+addresslist.js css begin
+*/
+
+
+.main-list-add{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    max-width: 300px;
+    height: 530px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 25px;
+    box-shadow: 0px 0px 12px 5px rgba(154, 175, 196, 0.164);
+    border-radius: 15px;
+    padding-top: 15px;
+    
+}
+.top-maplist-items{
+ 
+  display:flex;
+  padding-right: 6%;
+  margin-bottom: 8px;
+}
+
+.btn-add-res{
+    background-color: #F3B31B;
+    border-radius: 15px;
+    border-width: 0px;
+    padding: 3px 10px 3px 10px;
+    margin-left: 30px;
+    float: left;
+    font-size: 12px;
+}
+
+.clos-btn{
+  background-color: #f8f8f8;
+  border-radius: 15px;
+  border: 1px solid #F3B31B ;
+  
+  margin-left: 65px;
+  font-size: 14px;
+}
+
+.clos-btn:hover{
+  background-color: #F3B31B;
+  border-radius: 15px;
+  border: 1px solid #F3B31B ;
+  
+  margin-left: 65px;
+  font-size: 14px;
+}
+
+
+ .p-one{
+     font-size: 14px;
+ }
+
+
+.address-storage-container{
+    max-height: 465px;
+    overflow-y: scroll;
+}
+
+
+
+
+
+.btn-main-list{
+  width:250px;
+  height: 120px;
+  margin: 5px;
+  border: 0px;
+  border-radius: 15px;
+  font-size: 14px;
+  padding-top: 15px;
+}
+
+.btn-main-list:hover{
+  box-shadow: 0px 0px 12px 5px rgba(154, 175, 196, 0.164);
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+
+
+input[type="radio"] {
+    /* Add if not using autoprefixer */
+    -webkit-appearance: none;
+    appearance: none;
+    /* For iOS < 15 to remove gradient background */
+    background-color: #fff;
+    /* Not removed via appearance */
+    margin: 0;
+  }
+
+  input[type="radio"] {
+    appearance: none;
+    background-color: #fff;
+    margin: 0;
+    font: inherit;
+    color: currentColor;
+    width: 1.15em;
+    height: 1.15em;
+    border: 0.15em solid currentColor;
+    border-radius: 50%;
+  }
+  
+  .form-control + .form-control {
+    margin-top: 1em;
+  }
+
+
+  input[type="radio"] {
+    appearance: none;
+    background-color: #fff;
+    margin: 0;
+    font: inherit;
+    color: currentColor;
+    width: 1.15em;
+    height: 1.15em;
+    border: 0.15em solid currentColor;
+    border-radius: 15%;
+    transform: translateY(-0.075em);
+  }
+
+  
+
+  input[type="radio"]::before {
+    content: "";
+    width: 0.65em;
+    height: 0.65em;
+    border-radius: 10%;
+    transform: scale(0);
+    transition: 120ms transform ease-in-out;
+    box-shadow: inset 1em 1em var(--form-control-color);
+  }
+
+  input[type="radio"] {
+    /* ...existing styles */
+    display: grid;
+    place-content: center;
+  }
+  
+  input[type="radio"]::before {
+    content: "";
+    width: 0.65em;
+    height: 0.65em;
+    border-radius: 15%;
+    transform: scale(0);
+    transition: 220ms transform ease-in-out;
+    box-shadow: inset 1em 1em #00cb36;
+  }
+  
+  input[type="radio"]:checked::before {
+    transform: scale(2);
+  }
+
+  /* input[type="radio"]:focus {
+    outline: max(2px, 0.15em) solid currentColor;
+    outline-offset: max(2px, 0.15em);
+  } */
+
+  .form-control:focus-within {
+    color: #00ca2f;
+  }
+
+
+
+
+/*
+new address css begin (map.js , newaddress.js)
+*/
+
+
+.map-container{
+    font-family: IranSans;
+    height: 250px;
+}
+.map-main-cont{
+    
+    height: 460px;
+    width: 300px;
+    margin: auto;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 25px;
+    box-shadow: 0px 0px 12px 5px rgba(154, 175, 196, 0.164);
+    border-radius: 15px;
+    font-size: 14px;
+
+
+}
+
+
+
+/* .map-box-container{
+    
+
+
+
+} */
+
+.new-address{
+    background-color: rgb(255, 255, 255);
+    position:absolute;
+    width: 300px;
+    z-index: 1;
+    justify-content: center;
+    justify-items: center;
+    margin: auto;
+}
+
+.address-auto{
+  background-color: #F3B31B;
+  margin-bottom: -20px;
+  position: absolute;
+  z-index: 2;
+  margin-right: 10px;
+  margin-top: 10px;
+  width: 280px;
+  align-items: center;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.input-add{
+    border: 0.05px rgba(63, 63, 63, 0.2) solid;
+    border-radius: 15px;
+    padding: 5px 10px 5px 10px;
+    margin-top: 20px;
+    margin-right: 38px;
+    text-align: right;
+    width: 225px;
+    font-family: IranSans;
+
+}
+.input-add2{
+    border: 0.05px rgba(63, 63, 63, 0.2) solid;
+    border-radius: 15px;
+    padding: 5px 10px 5px 10px;
+    margin-top: 10px;
+    text-align: right;
+    width: 100px;
+    margin-left: 2px;
+    font-family: IranSans;
+    margin-right: 32px;
+
+}
+
+.accept-map{
+    margin-top:115px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 15px;
+    border: none;
+    background-color: #F3B31B;
+    font-family: IranSans;
+    font-size: 12px;
+    cursor: pointer;
+    margin-right: 90px;
+}
+
+
+
+.accept-map:hover{
+    background-color: #e2a10a;
+
+}
+
+.marker-b{
+    position: absolute;
+    z-index: 2;
+    width: 40px;
+    margin-top: -160px;
+    margin-right: 128px;
+}
+
+
+
+/* .sidebar {
+    background-color: rgba(35, 55, 75, 0.9);
+    color: #fff;
+    padding: 6px 12px;
+    font-family: monospace;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 12px;
+    border-radius: 4px;
+    } */

@@ -1,0 +1,759 @@
+@font-face {
+  font-family: "IranSans";
+  src: url(../public/font/IRANSANS.TTF);
+  src: url(../public/font/IRANSANS.TTF),
+}
+@font-face {
+  font-family: "IranSansB";
+  src: url(../public/font/IRANSANS_MEDIUM.TTF);
+  src: url(../public/font/IRANSANS_MEDIUM.TTF),
+}
+@font-face {
+  font-family: "Yekan";
+  src: url(../public/font/IRANSANSFANUMMEDIUM.TTF);
+  
+}
+
+
+body{
+  font-family: "IranSans";
+  background-color: rgb(255, 255, 255);
+  scroll-behavior: smooth;
+}
+
+
+.main-card-crl{
+  background-color: aqua;
+  width: 250px;
+}
+
+
+.Toastify__toast-body {
+  
+  font-family: IranSans;
+  text-align: center;
+}
+.Toastify__toast{
+  margin-top: 45px;
+}
+
+
+.main-loader-sec{
+  
+  
+  background-color: rgb(255, 255, 255);
+}
+
+.loader-sec{
+  justify-content: center;
+  justify-items: center;
+  margin: auto;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  margin-top: 150px;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+/* carosel css */
+
+
+
+
+
+.caros{
+  max-width: 92%;
+  margin: auto;
+  
+  margin-top: 10px;  
+}
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
+
+
+
+.card{
+
+  max-width: 278px;
+  box-shadow: 0px 0px 8px 0px rgba(68, 68, 68, 0.144);
+  height: 310px;
+  border-radius: 15px;
+  border-color: #ffffff00;
+  margin-top: 25px;
+  margin-bottom: 35px;
+  text-decoration: none ;
+  direction: rtl;
+  font-size: 12px;
+
+}
+
+.card:hover{
+  
+  box-shadow: 0px 4px 10px 2px rgba(150, 150, 150, 0.205);
+  cursor: pointer;
+
+}
+
+
+.res-id-selector{
+background-color: rgba(240, 248, 255, 0);
+border-color: #f3b21b00;
+}
+.vendor-logo{
+
+  margin-right: -170px;
+  
+  
+}
+
+.vendor-logo-m{
+
+  box-shadow: 0px 0px 8px 0px rgba(68, 68, 68, 0.163);
+
+  background-color: rgb(255, 255, 255);
+}
+
+.starm{
+
+  color: rgb(255, 255, 255);
+  background-color: #ff0800;
+  width: fit-content;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-top: 2px;
+  border-radius: 15px;
+  text-align: left;
+  margin-right: 10px;
+  margin-bottom: -28px;
+  z-index: 11;
+    
+}
+
+.titles{
+
+  margin-right: 70px;
+  margin-top: -27px;
+  color: rgb(0, 0, 0);
+  font-size: 12px;
+    
+}
+
+.costm{
+
+    
+    border-radius: 15px;
+    border-color: rgba(216, 191, 216, 0.137);
+    border-width: 0.1px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: rgba(255, 153, 0, 0.027);  
+    font-family: IranSans; 
+    align-items: center;
+    justify-content: center;
+    margin-right: 45px;
+    
+}
+
+
+.sliderm{
+
+max-width: 96%;
+
+}
+
+
+.title-container{
+  max-width: 100%;
+  margin: auto;
+  display: flex;
+  height: 56px;
+  margin-bottom: -30px;
+  margin-top: 30px;
+}
+.showall-sec{
+  width: 50%;
+  
+}
+.show-all{
+    
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    border-radius: 15px;
+    border-color: rgba(216, 191, 216, 0);
+    background-color: #f5b301;
+    float: left; 
+    font-family: IranSans;
+    font-size: 16px;
+}
+
+.show-all:hover{
+    background-color: #eea805;
+    border-width: 2px;
+}
+
+
+.title-caros{
+    text-align: right;
+    float: right;
+    width: 50%;
+    font-size: 22px;
+
+}
+
+
+.disc{
+    margin-right: 10px;
+    
+}
+
+.disc-store{
+  margin-right: 20px;
+
+    width: 150px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
+.swiper-button-next{
+  background-color: rgba(255, 255, 255, 0.625);
+  
+    background-color: #f5b301;
+    right:5px;
+    padding: 25px;
+    border-radius: 15px;
+    font-size: 10px;
+    
+    color: #000000 !important;
+    fill: #000000 !important;
+    stroke: #000000 !important;
+}
+.swiper-button-prev {
+  font-size: 10px;
+    background-color: rgba(255, 255, 255, 0.625);
+    background-color: #f5b301;
+    right:5px;
+    padding: 25px;
+    border-radius: 15px;
+    color: #000000 !important;
+    fill: #000000 !important;
+    stroke: #000000 !important;
+    
+}
+
+.swiper-button-prev{
+  margin-right: 55px;
+  font-size: 10px;
+}
+
+.swiper-scrollbar{
+  display: none;
+}
+
+.show-extra-main{
+  max-width: 178px;
+  box-shadow: 0px 0px 8px 0px rgba(68, 68, 68, 0.163);
+  background-color: #f5b301;
+  height: 300px;
+  border-radius: 15px;
+  margin-top: 25px;
+  margin-bottom: 35px;
+  text-decoration: none ;
+  direction: rtl;
+  font-size: 12px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+
+}
+.show-extra-main:hover{
+  max-width: 175px;
+  height: 295px;
+  background-color: #eea805;
+}
+
+
+
+
+
+
+
+
+/*  main home carosel css */
+
+.home-caros-main{
+  
+  max-width: 92%;
+  margin: auto;
+  display: flex;
+  
+}
+
+.main-caros-home-img{
+  
+  height: 600px;
+}
+
+.swiper-slide{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  
+}
+.div-slider-main-home{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+
+
+/* banner home page CSS */
+
+
+.banner-h-one-main{
+  margin: auto;
+  display: flex;
+  width: 92%;
+}
+
+
+.banner-h-one{
+  width: 50%;
+  
+  float: right;
+  
+}
+.banner-h-two{
+  width: 50%;
+  
+  float: left;
+  
+}
+
+.img-banner-one{
+  height: 20vh;
+  border-radius: 15px;
+}
+.img-banner-two{
+  height: 20vh;
+  float: left;
+  border-radius: 15px;
+}
+.br-banners-one{
+  width: 4%;
+}
+
+/* Detail Resturant [resturantId] */
+
+.main-banner-detail-rest{
+  width: 100%;
+  height: 350px;
+  overflow-y: hidden;
+  background-color: #000000;
+}
+
+.img-banner-main-rest{
+  width: 100%;
+  opacity: 60%;
+  margin-top: -350px;
+  
+  
+}
+
+.m-page-sec-detail{
+  max-width: 92%;
+    margin: auto;
+    
+}
+
+.logo-img-detail-res{
+  background-color: #ffffff;
+  opacity: 100%;
+  width: 150px;
+  margin-top: -155px;
+  border-radius: 15px;
+  box-shadow:  0px 0px 8px 0px rgba(44, 44, 44, 0.163);
+  z-index: 1;
+  position: absolute;
+}
+
+.h1-detail-b{
+  margin-top: 70px;
+  font-family: IranSansB;
+}
+
+.rank-detail-res-sec{
+  display: flex;
+}
+
+.back-resturant-pg{
+  background-color: #fcfcfc07;
+  z-index: 2;
+  position: sticky;
+  text-align: left;
+  width: 100%;
+  /* padding: 15px; */
+  margin-top: 2px;
+  padding-left: 4%;
+  margin-bottom: -25px;
+  top: 58px;
+}
+
+.time-delivery-sec{
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid #e9e8e8;
+}
+.p-open-store{
+  background-color: #00ff2a;
+  width: 60px;
+  margin-left: 15px;
+  border-radius: 15px;
+  padding: 5px;
+}
+.p-open-close{
+  background-color: #ff2600;
+  width: 60px;
+  margin-left: 15px;
+  border-radius: 15px;
+  padding: 5px;
+}
+.open-close-sec{
+  background-color: #ffffff;
+  width: 80%;
+}
+
+.main-deli-detal-sec{
+  display: flex;
+  width: 20%;
+  justify-content: end;
+  
+}
+
+.delivery-sec{
+  
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  margin: 5px;
+  margin-top: -60px;
+  border-radius: 10px;
+  border: 2px solid #1ab181;
+  
+
+}
+.detail-ress-sec{
+  background-color: #f5b301;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  margin: 5px;
+  margin-top: -60px;
+  border-radius: 10px;
+  cursor: pointer;
+
+}
+
+
+.categury-detail-pg-res{
+  background-color: rgba(255, 255, 255, 0.808);
+  height: 31px;
+  position: sticky;
+  top:55px;
+  border-bottom: 1px solid #00000009;
+  
+}
+
+.btn-categury-detail-pg{
+  
+  margin-top: 3px;
+  margin-bottom: 10px;
+  margin-left: 8px;
+  background-color: #ffffff;
+  border-radius: 12px ;
+  border: 1px solid #f5b301;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.btn-categury-detail-pg:hover{
+  background-color: #f5b301;
+}
+
+
+/* .main-foods-basket-sec-det-pg{
+  
+} */
+
+.foods-sec-det-pg{
+  width: 100%;
+  background-color: #1ab181;
+}
+
+.basket-sec-detail-pg{
+  width: 93%;
+  background-color: #02ff56c0;
+  border-radius: 10px;
+  height: 30px;
+  position: fixed;
+  bottom: 8px;
+  left: 3%;
+  padding-top: 5px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 15px 0px #9999992d;
+  font-size: 14px;
+  
+}
+
+.basket-sec2-detail-pg{
+  width: 50%;
+  
+  background-color: #f5b301;
+  border-radius: 10px;
+  height: 40px;
+  position: fixed;
+  bottom: 8px;
+  left: 3%;
+  padding-top: 8px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 15px 0px #9999992d;
+  cursor: pointer;
+  margin-left: 22%;
+}
+.basket-sec2-detail-pg:hover{
+background-color: #eea805;
+}
+
+
+.cate-p-details-foods{
+  font-family: IranSansB;
+  margin-top: 15px;
+}
+.main-dev-sec-cards-food-detail-pg{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  
+  
+  
+}
+.foods-list-det-pg{
+  
+  width: 95%;
+  padding-bottom: 5px;
+  box-shadow: 0px 0px 15px 0px #9999992d;
+  margin: 20px;
+  border-radius: 12px;
+}
+.img-name-disc-food-list-det-pg{
+  display: flex;
+}
+.img-food-detail-rest-pg{
+  background-color: #ffffff;
+  width: 95px;
+  height: 95px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px 1px #69696921;
+  margin: 8px;
+}
+.name-dis-sec-det-pg{
+  margin-right: 8px;
+  margin-top: 14px;
+}
+
+
+.price-butoon-basket-sec{
+  background-color: #f5f5f58a;
+  width: 98%;
+  display: flex;
+  border-radius: 12px;
+  height: 30px;
+  margin-right: 4px;
+  margin-bottom: 5px;
+}
+.price-sec-dt-pg{
+  display: flex;
+  width: 60%;
+  margin-right: 8px;
+  font-size: 16px;
+  
+}
+.basket-button-sec-dt-pg{
+  width: 50%;
+  margin-left: 12px;
+  text-align: left;
+}
+.btn-basket-add-dt-pg{
+  background-color: #f5b301;
+  border: 0px;
+  border-radius: 12px;
+  font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+/* Back Button */
+.back-button-main{
+  background-color: #f5b301;
+  cursor: pointer;
+  border-radius: 8px;
+  border: 0px;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 12px;
+}
+
+
+
+
+
+
+/* Respomsive CSS */
+
+@media (max-width: 1280px){
+  .main-caros-home-img{
+  
+    height: 450px;
+  }
+}
+
+
+@media (max-width: 850px){
+  .main-caros-home-img{
+  
+    height: 250px;
+  }
+
+  .swiper-button-prev{
+    margin-right: 25px;
+  }
+
+  .banner-h-one-main{
+    display: none;
+  }
+
+  .back-resturant-pg{
+    padding-left: 32px;
+  }
+}
+
+@media (max-width: 650px){
+  .main-caros-home-img{
+  
+    height: 140px;
+  }
+
+  .swiper-button-prev{
+    margin-right: 0px;
+  }
+  .swiper-button-next{
+    margin-right: 0px;
+  }
+  .swiper-button-next{
+    background-color: rgba(255, 255, 255, 0);
+    
+      background-color: #f3b21b00;
+      right:5px;
+      padding: 25px;
+      border-radius: 15px;
+      
+      color: #00000000 !important;
+      fill: #00000000 !important;
+      stroke: #00000000 !important;
+  }
+  .swiper-button-prev {
+      background-color: rgba(255, 255, 255, 0);
+      background-color: #f3b21b00;
+      right:5px;
+      padding: 25px;
+      border-radius: 15px;
+      color: #00000000 !important;
+      fill: #00000000 !important;
+      stroke: #00000000 !important;
+      
+  }
+  
+
+  .banner-h-one-main{
+    display: none;
+  }
+
+  .img-banner-main-rest{
+    width: 100%;
+    opacity: 80%;
+    margin-top: 0px;
+  }
+
+  .back-resturant-pg{
+    padding-left: 15px;
+  }
+
+
+  .time-delivery-sec{
+    display:grid;
+  }
+  .main-deli-detal-sec{
+    width: max-content;
+  }
+  .delivery-sec{
+  margin-top: 0;
+  }
+
+  .detail-ress-sec{
+    margin-top: 0;
+  }
+
+  .main-dev-sec-cards-food-detail-pg{
+    width: 100%;
+    display: contents;
+    
+    
+    
+  }
+}
+
+
+
+
+

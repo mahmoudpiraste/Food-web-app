@@ -1,0 +1,73 @@
+.countainer-login{
+    width: 100%;
+    height: 100vh;
+    background-color: #e4aa23;
+    padding-top: 100px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+}
+
+
+
+
+
+.main-login{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    max-width: 300px;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+    
+    box-shadow: 0px 0px 12px 5px rgba(154, 175, 196, 0.164);
+    border-radius: 15px;
+    padding-top: 15px;
+    font-size: 17px;
+}
+
+
+
+.input-num{
+    border-radius: 15px;
+    border-width: 0px;
+    background-color: rgb(235, 235, 235);
+    padding: 4px 10px 3px 10px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.main-cl-v{
+    width: 290px;
+    display: flex;
+    
+}
+
+.acc-btn-login{
+    background-color: #F3B31B;
+    border-radius: 15px;
+    border-width: 0px;
+    padding: 3px 20px 3px 20px;
+    margin-top: 15px;
+    font-size: 12px;
+    margin-right: 30px;
+    
+}
+
+.acc-btn-login:hover{
+    background-color: #e4aa23;
+}
+
+
+.resend-btn{
+    border-color: #e4aa2300;
+    background-color: rgb(255, 255, 255);
+    font-size: 12px;
+    margin-top: 15px;
+   margin-right: 55px;
+}
+
+
+
